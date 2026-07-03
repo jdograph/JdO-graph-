@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'https://esm.sh/react@18'
-import { Canvas } from 'https://esm.sh/@react-three/fiber@8'
+import React, { useState, useEffect } from 'react'
+import { Canvas } from '@react-three/fiber'
 import Scene3D from './Scene3D.jsx'
 
 export default function App() {
