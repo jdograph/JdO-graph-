@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18'
-import { useFrame, useThree } from 'https://esm.sh/@react-three/fiber@8'
-import { OrbitControls } from 'https://esm.sh/@react-three/drei@9'
-import * as THREE from 'https://esm.sh/three@0.159.0'
+import React, { useState, useEffect, useRef } from 'react'
+import { useFrame, useThree } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
+import * as THREE from 'three'
 
 // --- Océan avec vagues animées ---
 function Ocean() {
